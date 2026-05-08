@@ -1,0 +1,32 @@
+version: 2
+
+sources:
+  - name: modelisation_sources
+    database: carteldeladata
+    schema: modelisation_sources
+    description: "Tables sources pour la modélisation"
+    
+    tables:
+      - name: calendrier_months
+        description: "Calendrier par mois"
+        
+      - name: car_hires
+        description: "Locations de voitures"
+        
+      - name: car_rental_companies
+        description: "Compagnies de location de voitures"
+        
+      - name: hotels
+        description: "Hôtels"
+        
+      - name: organisations
+        description: "Organisations"
+        
+      - name: rooms
+        description: "Chambres"
+        
+      - name: teams
+        description: "Équipes"
+        
+      - name: users
+        description: "Utilisateurs"
